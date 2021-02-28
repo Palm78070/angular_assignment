@@ -9,6 +9,7 @@ import { Component, Input } from "@angular/core";
 export class CountingComponent {
  @Input()
  count:number = 0;
+ items = [1, 2, 3, 4, 5];
 
  constructor() {}
 
