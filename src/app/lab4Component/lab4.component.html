@@ -1,0 +1,11 @@
+<div class="allnumber">
+<p *ngFor="let item of arr1">
+ <span class="number-even">
+<span *ngIf="item % 2 === 0">{{ item }}</span>
+ </span>
+
+ <span class="number-odd">
+<span *ngIf="item % 2 !== 0">{{ item }}</span>
+ </span>
+</p>
+</div>

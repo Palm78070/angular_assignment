@@ -1,0 +1,15 @@
+.number-even {
+  color: green;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.number-odd {
+  color: red;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.allnumber {
+  text-align: center;
+}
